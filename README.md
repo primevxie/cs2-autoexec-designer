@@ -2,8 +2,6 @@
 
 A visual, block-based editor for creating **Counter-Strike 2** `autoexec.cfg` files. Built with **React**, **Blockly**, and **TailwindCSS**.
 
-![CS2 Autoexec Designer Preview](https://via.placeholder.com/800x400?text=CS2+Autoexec+Designer+Preview)
-
 ## 🚀 Features
 
 *   **Visual Logic**: Drag-and-drop interface powered by Google's Blockly.
