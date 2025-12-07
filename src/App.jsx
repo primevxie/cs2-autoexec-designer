@@ -31,8 +31,17 @@ function App() {
       {/* Main Content */}
       <div className="flex flex-1 overflow-hidden">
         {/* Editor Area */}
-        <div className="flex-1 relative">
+        <div className="flex-1 relative group">
           <BlocklyEditor onCodeChange={setCode} />
+
+          <a
+            href="https://github.com/primevxie/cs2-autoexec-designer"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="absolute bottom-4 right-4 text-xs text-slate-500 hover:text-emerald-400 transition-colors opacity-50 hover:opacity-100 z-10 pointer-events-auto"
+          >
+            Made with ❤️ by primevxie
+          </a>
         </div>
 
         {/* Sidebar / Preview */}
